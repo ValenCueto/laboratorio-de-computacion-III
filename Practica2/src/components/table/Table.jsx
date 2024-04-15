@@ -21,7 +21,10 @@ const Table = ({ netIncomes }) => {
           ))}
         </tbody>
       </table>
-      <p>Total de ingresos netos: ${totalIncome}</p>
+      <p>
+        El promedio de ingreso neto entre todas las marcas es: $
+        {totalIncome / 3}
+      </p>
     </div>
   );
 };
